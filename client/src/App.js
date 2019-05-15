@@ -3,6 +3,8 @@ import './App.css';
 import Counter from './components/Counter';
 import CounterHooks from './components/CounterHook';
 import Toggler from './components/ToggleHook';
+import SpringAnimation from './components/SpringAnimation';
+import SpringToggle from './components/SpringToggle';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
       <Counter />
       <CounterHooks />
       <Toggler />
+      <SpringAnimation />
+      <SpringToggle />
     </div>
   );
 }
