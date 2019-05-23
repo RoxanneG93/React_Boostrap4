@@ -5,6 +5,8 @@ import CounterHooks from './components/CounterHook';
 import Toggler from './components/ToggleHook';
 import SpringAnimation from './components/SpringAnimation';
 import SpringToggle from './components/SpringToggle';
+import Input from './components/Hooks/Input';
+import FormStateHook from './components/Hooks/FormStateHook';
 
 function App() {
   return (
@@ -34,11 +36,37 @@ function App() {
 
         </form>
       </div>
-      <Counter />
-      <CounterHooks />
-      <Toggler />
-      <SpringAnimation />
-      <SpringToggle />
+      <div className="container">
+        <div className="row mt-5">
+          <Counter />
+        </div>
+        <div className="row mt-5">
+          <CounterHooks />
+        </div>
+        <div className="row mt-5">
+          <Toggler />
+        </div>
+        <div className="row mt-5">
+          <SpringAnimation />
+        </div>
+        <div className="row mt-5">
+          <SpringToggle />
+        </div>
+        <div className="row mt-5">
+          <Input />
+        </div>
+        <div className="row mt-5 mb-5">
+          <FormStateHook />
+        </div>
+      </div>
+
+
+
+
+
+
+
+
     </div>
   );
 }
