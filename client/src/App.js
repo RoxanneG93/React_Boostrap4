@@ -7,10 +7,32 @@ import SpringAnimation from './components/SpringAnimation';
 import SpringToggle from './components/SpringToggle';
 import Input from './components/Hooks/Input';
 import FormStateHook from './components/Hooks/FormStateHook';
+import Component1 from './components/SpringAnimations/Component1';
+import Component2 from './components/SpringAnimations/Component2';
+//import Component3 from './components/SpringAnimations/Component3';
+
+import { Spring } from 'react-spring/renderprops';
+
+const c1Style = {
+  background: 'steelblue',
+  color: 'white',
+  padding: '1.5rem'
+}
 
 function App() {
+
+  // state = {
+  //   showComponent3: false
+  // }
   return (
     <div className="App">
+
+      <div style={c1Style}>
+        <Component1 />
+      </div>
+      <Component2 />
+
+
       <h1 className="display-1">test</h1>
       <div className="container">
         <form action="">
@@ -23,9 +45,6 @@ function App() {
             <input type="password" placeholder="enter your password" id="password" className="form-control-md" />
           </div>
           <div class="input-group mb-3">
-            {/* <div class="input-group-prepend">
-              <label class="input-group-text" for="inputGroupSelect01">Options</label>
-            </div> */}
             <select class="custom-select" id="inputGroupSelect01">
               <option selected>Choose...</option>
               <option value="1">One</option>
