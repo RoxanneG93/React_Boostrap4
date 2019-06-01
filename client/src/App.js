@@ -9,6 +9,11 @@ import Input from './components/Hooks/Input';
 import FormStateHook from './components/Hooks/FormStateHook';
 import Component1 from './components/SpringAnimations/Component1';
 import Component2 from './components/SpringAnimations/Component2';
+import TransitionGroup from './components/SpringAnimations/GridExample/TransitionGrid';
+import AnimatedCard from './components/SpringAnimations/AnimatedCard/AnimatedCard.js';
+import BSCard from './components/SpringAnimations/AnimatedCard/BSCard.js';
+import BSClassCard from './components/SpringAnimations/AnimatedCard/BSClassCard.js';
+import MasonryGrid from './components/SpringAnimations/GridExample2/MasonryGrid.js';
 //import Component3 from './components/SpringAnimations/Component3';
 
 import { Spring } from 'react-spring/renderprops';
@@ -25,9 +30,10 @@ function App() {
   //   showComponent3: false
   // }
   return (
-    <div className="App">
+    <React.Fragment>
+      <div className="App">
 
-      <div style={c1Style}>
+        {/* <div style={c1Style}>
         <Component1 />
       </div>
       <Component2 />
@@ -53,10 +59,10 @@ function App() {
             </select>
           </div>
 
-        </form>
-      </div>
-      <div className="container">
-        <div className="row mt-5">
+        </form> */}
+        {/* </div> */}
+        <div className="container">
+          {/* <div className="row mt-5">
           <Counter />
         </div>
         <div className="row mt-5">
@@ -76,8 +82,18 @@ function App() {
         </div>
         <div className="row mt-5 mb-5">
           <FormStateHook />
+        </div> */}
+          <div className="row mt-5 mb-5">
+            {/* <TransitionGroup /> */}
+            {/* <AnimatedCard /> */}
+            {/* <BSCard /> */}
+
+            <BSClassCard />
+
+
+            {/* <MasonryGrid /> */}
+          </div>
         </div>
-      </div>
 
 
 
@@ -86,7 +102,8 @@ function App() {
 
 
 
-    </div>
+      </div >
+    </React.Fragment>
   );
 }
 
