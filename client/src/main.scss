@@ -1,0 +1,29 @@
+
+//   $primary: pink;
+  
+
+
+$theme-colors: (
+  "primary": pink,
+  "danger": #ff4136
+);
+
+
+// mixins you can apply in styles
+@mixin small {
+    @media only screen and (max-width: 480px){
+        @content;
+    }
+}
+
+.test-container{
+    background: blue;
+    @include small {
+        background: pink;
+    }
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+

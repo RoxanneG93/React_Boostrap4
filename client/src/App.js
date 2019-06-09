@@ -14,6 +14,7 @@ import AnimatedCard from './components/SpringAnimations/AnimatedCard/AnimatedCar
 import BSCard from './components/SpringAnimations/AnimatedCard/BSCard.js';
 import BSClassCard from './components/SpringAnimations/AnimatedCard/BSClassCard.js';
 import MasonryGrid from './components/SpringAnimations/GridExample2/MasonryGrid.js';
+import ResponsiveTest from './components/ResponsiveTest';
 //import Component3 from './components/SpringAnimations/Component3';
 
 import { Spring } from 'react-spring/renderprops';
@@ -94,6 +95,7 @@ function App() {
             {/* <MasonryGrid /> */}
           </div>
         </div>
+        <ResponsiveTest />
 
 
 
