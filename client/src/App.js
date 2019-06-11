@@ -15,6 +15,7 @@ import BSCard from './components/SpringAnimations/AnimatedCard/BSCard.js';
 import BSClassCard from './components/SpringAnimations/AnimatedCard/BSClassCard.js';
 import MasonryGrid from './components/SpringAnimations/GridExample2/MasonryGrid.js';
 import ResponsiveTest from './components/ResponsiveTest';
+import FlexboxTest from './components/FlexboxTest';
 //import Component3 from './components/SpringAnimations/Component3';
 
 import { Spring } from 'react-spring/renderprops';
@@ -97,11 +98,30 @@ function App() {
         </div>
         <ResponsiveTest />
 
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <img className="img-fluid" src="https://thumbs.gfycat.com/LivelyEmbellishedBarbet-poster.jpg" />
+            </div>
+            <div className="col-lg-6 text-center">
+              <div className="row justify-content-center">
+                <div className="col-10">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magni porro praesentium dicta exercitationem incidunt!
+                  Architecto voluptas ratione voluptatibus provident quam ea, quisquam neque suscipit aperiam, deleniti, nesciunt ad veniam.
+                  Doloremque a sint aliquam, tenetur minima ad dolorem rerum nisi iusto sed ratione, velit hic. Quia consectetur cum minus voluptas culpa?
+              </div>
+              </div>
 
-
-
-
-
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12 testMe "><h1>hello</h1></div>
+        </div>
+        <div className="row">
+          <FlexboxTest />
+        </div>
 
 
       </div >
