@@ -16,6 +16,7 @@ import BSClassCard from './components/SpringAnimations/AnimatedCard/BSClassCard.
 import MasonryGrid from './components/SpringAnimations/GridExample2/MasonryGrid.js';
 import ResponsiveTest from './components/ResponsiveTest';
 import FlexboxTest from './components/FlexboxTest';
+import Home from './Home';
 //import Component3 from './components/SpringAnimations/Component3';
 
 import { Spring } from 'react-spring/renderprops';
@@ -34,6 +35,10 @@ function App() {
   return (
     <React.Fragment>
       <div className="App">
+        <Home />
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Harum voluptatibus facilis, quidem obcaecati minus tempora maxime cumque est odio modi impedit voluptates culpa dolore eligendi iste voluptatem laboriosam, distinctio ea!</p>
 
         {/* <div style={c1Style}>
         <Component1 />
@@ -101,7 +106,7 @@ function App() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <img className="img-fluid" src="https://thumbs.gfycat.com/LivelyEmbellishedBarbet-poster.jpg" />
+              <img className="img-fluid" src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch.jpg" />
             </div>
             <div className="col-lg-6 text-center">
               <div className="row justify-content-center">
